@@ -1,0 +1,29 @@
+normal&'*normal':1379 '*no-indexing':92
+&
+heart&'*cardiomegaly':345
+&
+spine&'*scoliosis':118 'degenerative':482
+&
+bone&'*bone-diseases-metabolic':31
+&'*fractures-bone':89
+&
+pleural&'*pleural-effusion':160
+&'*thickening':53
+&'*pneumothorax':22
+&
+mediastinum&'*hernia-hiatal':44
+&'*calcinosis':332 aorta or lymph node
+&
+lung&'*pulmonary-fibrosis':18
+&'*emphysema':60' *pulmonary-emphysema':36 aka COPD
+&'*pneumonia':41 '*infiltrate':63 '*consolidation':33 
+&'*pulmonary-edema':43
+&'*pulmonary-atelectasis':330
+&'*cicatrix':196
+&'*opacity':509
+&'*nodule':116 '*mass':16
+&
+Airspace under lung&'*airspace-disease':123
+&'*hypoinflation':285 '*hyperdistention':210
+&
+foreign object&'*catheters-indwelling':121 '*surgical-instruments':105 '*tube-inserted':31 '*medical-device':21
