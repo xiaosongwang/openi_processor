@@ -12,7 +12,7 @@ xml_file_list = os.listdir(report_dir)
 report_text = ''
 mesh_words = ''
 for i, xml_file in enumerate(xml_file_list):
-    print i, xml_file
+    print(i, xml_file)
     tree_tmp = ET.parse(osp.join(report_dir, xml_file))
     if len(tree_tmp.getroot()) <= 18: continue
     report_text = report_text + 'image_id : ' \
@@ -61,7 +61,7 @@ unique_mesh_words = set(mesh_words_list)
 # count the frequency of each word
 import collections
 mesh_words_counter = collections.Counter(mesh_words_list)
-print mesh_words_counter
+print(mesh_words_counter)
 
 dict = mesh_words_counter
 w = csv.writer(open(osp.join(output_dir, 'mesh_word_freq.csv'), "w"))
